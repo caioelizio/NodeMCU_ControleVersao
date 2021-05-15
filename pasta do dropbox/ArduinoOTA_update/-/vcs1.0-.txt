@@ -1,0 +1,10 @@
+{
+  "swVersion": "1.0",
+  "swMandatory": false,
+  "swRelease": "2020-04-19T16:00:00Z",
+  "swURL": "https://dl.dropboxusercontent.com/s/tljx2ydc9zbehtu/NodeMCU_ControleVersaov1.0.ino.bin",
+  "fsVersion": "1.0",
+  "fsMandatory": false,
+  "fsRelease": "2020-04-19T16:00:00Z",
+  "fsURL": "https://dl.dropboxusercontent.com/s/v8ac3cmp0sm3dhx/NodeMCU_ControleVersao.spiffs1.0.bin"
+}

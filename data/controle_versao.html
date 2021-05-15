@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </link>
+
+  <title>Controle de Versão</title>
+</head>
+
+<!--
+<body>
+<body onload="window.setTimeout(function(){window.location = '/';}, 5000)">
+<body onload="window.setTimeout(function(){window.location = '/';}, 60000)">
+-->
+<body>
+  <header>
+    <div class="d-flex flex-column align-items-center p-3 px-md-4 mb-3 bg-white border-bottom">
+        <nav class="my-2 my-md-0 mr-md-3">
+            <h5 class="text-center my-0 mr-md-auto font-weight-normal">#cDeviceID#</h5>
+            <a class="p-2 text-dark" href="dashboard.html">Dashboard</a>
+            <a class="p-2 text-dark" href="info.html">Informações</a>
+            <a class="p-2 text-dark" href="config_device.html">Configurações</a>
+        </nav>
+    </div>
+  </header>
+
+  <div class="container mt-5">
+<!--
+    <div class="card-deck mb-3 text-center">
+-->
+<div class="card-deck mb-3">
+
+      <div class="card mb-4 shadow-sm border-success">
+        <div class="card-header border-primary">
+          <h4 class="my-0 font-weight-normal text-info">
+            <img src="https://raw.githubusercontent.com/caioelizio/casa1014iot/master/images/configure.svg" width="24" alt="" srcset="">
+            Controle de Versão 1.1
+          </h4>
+        </div>
+        <div class="card-body">
+          <p>
+            <div class="row">
+              <div class="col-md-6 mb-12">
+                Software atual versão: <span class="text-muted">#curSWVersion#</span>
+              </div>
+              <div class="col-md-6 mb-12">
+                <label>Disponibilizado:</label>
+                <span class="text-muted">#curSWRelease#</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-12">
+                Software nova versão: <span class="text-muted"><b>#newSWVersion#</b></span>
+              </div>
+              <div class="col-md-6 mb-12">
+                <label>Disponibilizado:</label>
+                <span class="text-muted">#newSWRelease#</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-12">
+                Software atual
+              </div>
+              <div class="col-md-6 mb-12">
+                Obrigatória: <span class="text-danger">#newSWMandatory#</span>
+              </div>
+            </div>
+            <p>
+              <div class="row">
+                <div class="col-md-12 mb-12">
+                  <label>URL: </label>
+                  <span class="text-muted">#newSWURL#</span>
+                </div>
+              </div>
+            </p>
+          </p>
+
+          <p>
+            <div class="row">
+              <div class="col-md-6 mb-12">
+                Interface atual Versão: <span class="text-muted">#curFSVersion#</span>
+              </div>
+              <div class="col-md-6 mb-12">
+                <label>Disponibilizado:</label>
+                <span class="text-muted">#curFSRelease#</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-12">
+                Interface nova versão: <span class="text-muted"><b>#newFSVersion#</b></span>
+              </div>
+              <div class="col-md-6 mb-12">
+                <label>Disponibilizado:</label>
+                <span class="text-muted">#newFSRelease#</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-12">
+                Interface atual
+              </div>
+              <div class="col-md-6 mb-12">
+                Obrigatória: <span class="text-danger">#newFSMandatory#</span>
+              </div>
+            </div>
+
+            <p>
+              <div class="row">
+                <div class="col-md-12 mb-12">
+                  <label>URL: </label>
+                  <span class="text-muted">#newFSURL#</span>
+                </div>
+              </div>
+            </p>
+          </p>
+
+            <div class="row">
+              <div class="col-md-6 mb-12">
+                Situação: 
+              </div>
+              <div class="col-md-6 mb-12">
+                #status#
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+  </div>
+</div>
+
+
+  </body>
+</html>
